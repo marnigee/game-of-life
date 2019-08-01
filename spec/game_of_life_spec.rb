@@ -31,7 +31,7 @@ describe GameOfLife do
       c.x_coord == 1 && c.y_coord == 2
     end
     lower_right_block = game_of_life.cells.any? do |c|
-      c.x_coord == 2 && c.y_coord == 1
+      c.x_coord == 2 && c.y_coord == 2
     end
 
     expect(game_of_life.cells.size).to equal(4)
